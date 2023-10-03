@@ -12,3 +12,9 @@
 
 如果某一轮冒泡没有发生交换，则表示所有数据有序，可以结束外层循环。
 
+伪代码
+假设数组array[0…n-1]表示待排序数组`
+For I = 0 to n-2 then
+   For j = 0 to n-i-2 then
+      If array[j] > array[j+1] then
+         swap(array[j], array[j+1])
