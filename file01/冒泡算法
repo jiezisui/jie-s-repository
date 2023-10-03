@@ -18,3 +18,4 @@ For I = 0 to n-2 then
    For j = 0 to n-i-2 then
       If array[j] > array[j+1] then
          swap(array[j], array[j+1])
+
